@@ -1,0 +1,506 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>map</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="jquery.zoomooz.min.js"></script>
+        <script src="jquery.mousewheel.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="script.js"></script>
+        
+
+    </head>
+
+
+<body>
+
+
+            
+    <div id="container">
+        
+    	<div id="content">
+    		<!--
+            <object class="map" data="May06_01.svg" type="image/svg+xml" >
+    		    <embed class="map" src="May06_01.svg" type="image/svg+xml" />
+    		</object>-->
+            <img id="map" src="final01-wide.svg">
+            
+            <div id="header">
+                 <nav class="cl-effect-14">
+                  <a href="../index.html">Graphic design sampling</a>
+                  <!--<a href="../link/link.html">sampling</a>
+                  <a href="#">resampling</a>-->
+                </nav>
+            </div>
+
+            
+
+            <div class="level1_left zoomTarget" id="left" data-closeclick="true" data-duration="1000" >
+               <img style width="100%" src="img/level1.svg">
+                   <div class="level2_top zoomTarget" data-closeclick="true" >
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+                   <div class="level2_top zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+                   <div class="level2_bottom zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+                   <div class="level2_bottom zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+            </div>
+
+            
+            
+            
+            <div class="level1_right zoomTarget" id="center" data-duration="1000" data-closeclick="true">
+               <img style width="100%" src="img/level1.svg">
+                
+                
+                    <div class="level2_top zoomTarget" data-closeclick="true">
+                       <img class="level2background" src="img/level2.svg">
+                            
+
+                            <figure class="sws zoomTarget" id="cl01">
+                                <img src="http://www.trendlist.org/img/images/big/5f58187f8ca8c173ab300c4c0068517b.jpg" >
+                                <figcaption>
+                                    <a href="http://www.eps51.com/projects/kommunale-galerien-berlin/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">exposed content <br>center aligned <br></span></p>
+                                        <p class="description"><span class="highlight">Kommunale Galerien Berlin<br>Designed by Eps51 from Germany in 2014 </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            
+                            <figure class="sws zoomTarget" id="cl02">
+                                <img src="http://blog.graffies.com/wp-content/uploads/sites/4/2015/03/Creative-Typography-Designs-Inspiration-2015-16-4.jpg" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/gallery/23888379/Arctic-Monkeys-Typographic-Poster" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">letterspace <br></span></p>
+                                        <p class="description"><span class="highlight">Arctic Monkeys Typographic Poster<br>Designed by Lee Marcus</span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <figure class="sws zoomTarget" id="cl03">
+                                <img src="http://www.trendlist.org/img/images/big/26d7821a34335411dde257d674682732.jpg" >
+                                <figcaption>
+                                    <a href="http://www.roosjeklap.nl/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Circle <br>Text on Cover <br></span></p>
+                                        <p class="description"><span class="highlight">Spinoza <br>Designed by Roosje Klap _ </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl04">
+                                <img src="https://s-media-cache-ak0.pinimg.com/736x/83/af/02/83af0265bfc6774ae33a8d6ac9cd0d67.jpg" >
+                                <figcaption>
+                                    <a href="http://inspirimgrafik.tumblr.com/post/28894217765" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Exposed Content<br>Hyphens<br>Letterspace<br></span></p>
+                                        <p class="description"><span class="highlight">Retro Futurism <br>Designed by Paul-Henri Schaedelin </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl05">
+                                <img src="http://www.trendlist.org/img/images/big/5110d8b3c68d066445015fcaf61a36b6.jpg" >
+                                <figcaption>
+                                    <a href="http://www.pointzerostudio.com/post/117714463614/poster-display-concrete-fluid-exhibition" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">all round <br>letterspace <br></span></p>
+                                        <p class="description"><span class="highlight">Concrete Fluid Exhibition <br>Designed by Point Zero Studio </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <div class="label" id="label4">
+                                <!--<a href="http://www.hakymnoh.com/index.php?/graphic/gmtrc/" target="_blank">-->
+                                <img src="http://www.trendlist.org/img/images/big/04ac9f56f708e8338b9d8329de8555bf.png" ></a>
+                            </div>
+                           
+
+                            <div class="label" id="label5">
+                                <!--<a href="https://www.behance.net/gallery/19397105/D-u-R-A-m-A-D-R-E-Afiche" target="_blank">-->
+                                <img src=" http://www.trendlist.org/img/images/big/40d0fe144e2a0a7788c0cd4ef14a8054.jpg" ></a>
+                            </div>
+                       
+
+                            <figure class="sws zoomTarget" id="cl06">
+                                <img src="http://www.trendlist.org/img/images/big/66841b2e8e64644f4312ec08046836f9.jpg" >
+                                <figcaption>
+                                    <a href="http://bueronardin.com/kunstverein-in-hamburg/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">underlined <br>various format <br></span></p>
+                                        <p class="description"><span class="highlight">Kunst­verein in Hamburg <br>Designed by Bueronardin </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+                            
+
+                            <figure class="sws zoomTarget" id="cl07">
+                                <img src="http://www.christinamayer.com/typo3temp/pics/9cf556a536.jpg" >
+                                <figcaption>
+                                    <a href="http://www.christinamayer.com/culture/die-beste-aller-welten/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">slant <br>frame <br></span></p>
+                                        <p class="description"><span class="highlight">Die beste aller Welten <br>Designed by Christina Mayer </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl08">
+                                <img src="http://www.trendlist.org/img/images/big/8c178aa6b792af428720eaa05a975fc8.png" >
+                                <figcaption>
+                                    <a href="http://www.zwoelf.net/portfolio/en/#/single/kv-h-bf-ffmhh/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">slash <br>center aligned <br></span></p>
+                                        <p class="description"><span class="highlight">Kv.H.Bf. — FFM:HH <br>Designed by Zwölf </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <figure class="sws zoomTarget" id="cl09">
+                                <img src="http://www.trendlist.org/img/images/big/9c838cf3e2204b5f59bb4a3c170e7c8d.png" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/SimonGongora" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">circle <br>hyphens <br></span></p>
+                                        <p class="description"><span class="highlight">Modulo <br>Designed by Simon Gongora </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl10">
+                                <img src="http://www.trendlist.org/img/images/big/986cf0e6d0c30b8fa0417c9ad6aba94d.png" >
+                                <figcaption>
+                                    <a href="http://nassimbouaza.tumblr.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">gradients <br></span></p>
+                                        <p class="description"><span class="highlight">CETTE TYPOGRAPHIE EST MONSTRUEUSE <br>Designed by Nassim Bouaza </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <figure class="sws zoomTarget" id="cl11">
+                                <img src="http://www.trendlist.org/img/images/big/e3209031520e9688b130d1bac1c6c453.jpg" >
+                                <figcaption>
+                                    <a href="http://www.hit-studio.co.uk/as-if-nothing-happened/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">exposed contents <br></span></p>
+                                        <p class="description"><span class="highlight">As If Nothing Happened <br>Designed by HIT </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <figure class="sws zoomTarget" id="cl12">
+                                <img src="http://www.trendlist.org/img/images/big/51b8910046ac8411ab7ad1da606faea7.jpg" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/gallery/19901021/Selected-Essays-of-Pedro-Logato" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Table of contents <br>underlined <br></span></p>
+                                        <p class="description"><span class="highlight">Selected Essays of Pedro Logato <br>Designed by Igor Arume </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+
+                            <div class="label" id="label6">
+                                <img src="https://s3.amazonaws.com/neilsite/admin/wp-content/uploads/2014/02/manifest_front-cover.jpg" >
+                            </div>
+
+
+                            <figure class="sws zoomTarget" id="cl13">
+                                <img src="http://www.la-direction.fr/img/la-direction_journal-enfant.jpg" >
+                                <figcaption>
+                                    <a href="http://www.la-direction.fr/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">frame <br>exposed content <br></span></p>
+                                        <p class="description"><span class="highlight">Journal enfant <br>Designed by Pedro et Sylvie </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl14">
+                                <img src="http://www.trendlist.org/img/images/big/c82cbc788c2a41cadf0ff688c65712bc.png" >
+                                <figcaption>
+                                    <a href="http://b-ceausescu.tumblr.com/post/109383213220" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">center aligned <br>exposed content <br>letterspace <br></span></p>
+                                        <p class="description"><span class="highlight">SATURDAY FUNK OVERDRIVE <br>Designed by Bogdan Ceausescu </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl15">
+                                <img src="http://www.trendlist.org/img/images/big/b31a59dd34c6c71505f57ce3ed8a4a1e.jpg" >
+                                <figcaption>
+                                    <a href="http://www.rawcolor.nl/project/?id=437&type=assignment" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Double exposure <br>exposed content <br></span></p>
+                                        <p class="description"><span class="highlight">TextielLab Yearbook 2013 <br>Designed by Raw Colo </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl16">
+                                <img src="http://www.trendlist.org/img/images/big/a3fcba83a9e20873326f44e380c89f33.jpg" >
+                                <figcaption>
+                                    <a href="http://xavierlecuyer.tumblr.com/post/109436336921/labyrinth-ear-c-xavier-lecuyer" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">staircase <br>letterspace <br>circle <br></span></p>
+                                        <p class="description"><span class="highlight">LABYRINTH EAR <br>Designed by Xavier Lecuyer </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl17">
+                                <img src="http://www.trendlist.org/img/images/big/2f15e1578b2fd6f8f67ff5a4d4c42340.png" >
+                                <figcaption>
+                                    <a href="http://www.musaworklab.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">staircase <br>all round <br></span></p>
+                                        <p class="description"><span class="highlight">Trombeta Bath Flyer <br>Designed by Musa Worklab  </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <div class="label" id="label7">
+                                <img src="http://www.trendlist.org/img/images/big/5ea5bb721fb6c302d8a0228c4b7984ff.jpg" >
+                            </div>
+                            
+                            <figure class="sws zoomTarget" id="cl18">
+                                <img src="http://www.trendlist.org/img/images/big/3a12f2a3d22368f83a32ef00b5d271cc.jpg" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/gallery/Jazz-DesignNiklaus-Troxler-(-)/13645905" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">type on path <br>all round <br></span></p>
+                                        <p class="description"><span class="highlight">Jazz & Design－Niklaus Troxler  <br>Designed by Au Chon Hin  </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl19">
+                                <img src="http://www.trendlist.org/img/images/big/dafcce15d39e0b2cbabbbf83ceda33d5.jpg" >
+                                <figcaption>
+                                    <a href="http://www.sarpsozdinler.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">CENter aligned <br>exposed content <br>all round <br>slash <br></span></p>
+                                        <p class="description"><span class="highlight">Moving Images  <br>Designed by SARP SOZDINLER  </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl20">
+                                <img src="http://www.trendlist.org/img/images/big/905ff0976390004064656a4b2424ffb4.jpg" >
+                                <figcaption>
+                                    <a href="http://www.jeromebizien.fr/la-boum-deux" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">all round <br>underlined <br></span></p>
+                                        <p class="description"><span class="highlight">La Boum Deux <br>Designed by Jérôme Bizien  </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+
+                            <figure class="sws zoomTarget" id="cl21">
+                                <img src="
+http://www.trendlist.org/img/images/big/7d0c98d65f40adf58375ac1a4b832ec9.jpg" >
+                                <figcaption>
+                                    <a href="http://clemencecarle.com/?p=93" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Hyphens <br>letterspace <br></span></p>
+                                        <p class="description"><span class="highlight">Oceano Mare <br>Designed by Clémence Carle </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <div class="label" id="label8">
+                                <img src="http://www.trendlist.org/img/images/big/6cb51deb1f8b33377fa6f7414ac63352.jpg" >
+                            </div>
+            
+                            <figure class="sws zoomTarget" id="cl22">
+                                <img src="
+http://www.trendlist.org/img/images/big/9cb6277925176cd7b16b83db9ce50b1b.jpg" >
+                                <figcaption>
+                                    <a href="http://baptistatouchka.tumblr.com/post/77946734088/copilote-le-guide-pratique-des-18-25-ans" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">Wiggles <br>type on path <br></span></p>
+                                        <p class="description"><span class="highlight">Copilote <br>Designed by Baptiste Kucharski </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl23">
+                                <img src="
+https://media.typographicposters.com/bureau-lukas-haider/l/07.jpg" >
+                                <figcaption>
+                                    <a href="http://lukashaider.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">letterspace  <br></span></p>
+                                        <p class="description"><span class="highlight">JOYCE MUNIZ <br>Designed by Lukas Haider </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl24">
+                                <img src="
+http://www.trendlist.org/img/images/big/c91cb597e66247a8c61194da6e2f2c02.png" >
+                                <figcaption>
+                                    <a href="http://gdcdesign.tumblr.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">center aligned <br>frame <br> all round <br></span></p>
+                                        <p class="description"><span class="highlight">SILENT SERVANT SAMUEL KERRIDGE <br>Designed by Giandomenico Carpentieri </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+                            
+                            <figure class="sws zoomTarget" id="cl25">
+                                <img src="
+http://www.trendlist.org/img/images/big/c24c531aa9af3ca253aa3e90c0e9a6b6.jpg" >
+                                <figcaption>
+                                    <a href="http://christian-serrano.net/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">letterspace <br>frame <br> type on path <br>underlined <br></span></p>
+                                        <p class="description"><span class="highlight">On The Road <br>Designed by Christian Serrano </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                             <div class="label" id="label9">
+                                <img src="http://www.trendlist.org/img/images/big/42b2747c9a49ef96ffc5f7de76481475.jpg" >
+                            </div>
+            
+                            <figure class="sws zoomTarget" id="cl26">
+                                <img src="
+http://www.trendlist.org/img/images/big/c0de37740d2982038bccbe761af43d6c.png" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/gallery/19310325/identity-of-the-11-Festival-Dobrego-Smaku-in-Lodz" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">slant <br></span></p>
+                                        <p class="description"><span class="highlight">Festival Dobrego Smaku <br>Designed by BDSN </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl27">
+                                <img src="
+http://www.trendlist.org/img/images/big/95e3ef5a8be24058b05239d4aff30e25.jpg" >
+                                <figcaption>
+                                    <a href="https://www.behance.net/gallery/22497123/AE14" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">center aligned <br>frame <br></span></p>
+                                        <p class="description"><span class="highlight">AE14 <br>Designed by Sarah Krebietke </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+            
+                            <figure class="sws zoomTarget" id="cl28">
+                                <img src="
+https://media.typographicposters.com/base/l/base-eklekto-iii.jpg" >
+                                <figcaption>
+                                    <a href="http://www.basedesign.com/" target="_blank">
+                                    <div>
+                                        <p class="category"><span class="highlight">letterspace <br>double exposure  <br>hyphens <br></span></p>
+                                        <p class="description"><span class="highlight">AE14 <br>Designed by Sarah Base Design </span></p>
+                                    </div>
+                                    </a>
+                                </figcaption>       
+                            </figure>
+                            
+                            <div class="label" id="label10">
+                                <img src="https://media.typographicposters.com/matthieu-salvaggio/l/1.jpg" >
+                            </div>
+                    </div> 
+
+
+                    <div class="level2_top zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+                   <div class="level2_bottom zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+                   <div class="level2_bottom zoomTarget" data-closeclick="true">
+                        <img class="level2background" src="img/level2.svg">
+                   </div>
+            </div>
+            </div>
+            
+    
+    
+    
+            <!--<div class="level1 zoomTarget" id="right" data-duration="1000" data-closeclick="true">
+                 <img style width="100%" src="img/hover1_3.png">
+                    <div class="level2 zoomTarget" id="3_1" data-closeclick="true">
+                        <img class="level2background" src="img/hover2_1right.png">
+                    </div> 
+                    <div class="level2 zoomTarget" id="3_2" data-closeclick="true">
+                        <img class="level2background" src="img/hover2_2right.png">
+                    </div> 
+                    <div class="level2 zoomTarget" id="3_3" data-closeclick="true">
+                        <img class="level2background" src="img/hover2_3right.png">
+                    </div>
+                    <div class="level2 zoomTarget" id="3_4" data-closeclick="true">
+                        <img class="level2background" src="img/hover2_4right.png">
+                    </div>  
+            </div>-->
+    
+    
+    
+    	</div>       
+    </div>
+
+    <div id="bubble"></div>
+
+
+</body>
+	
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,340 @@
+
+body{
+  margin:0;
+    width:1920px;
+}
+
+.main{
+    margin:0px;
+    width:100%;
+    height:1080px;
+    background-color: ;
+}
+.logo{
+    position: relative;
+    text-transform: uppercase;
+    font-size:40px;
+    width: 100%;
+    height:1080px;
+    background-color: white;
+    
+}
+
+#logo1{
+    width:400px;
+    margin-top:380px;
+    margin-left:39.8%;
+}
+.boxframe{
+    width:900px;
+    height: 600px;
+    align-content: center;
+}
+.boxframe img{
+    width:1100px;
+    margin-top:100px;
+    margin-left: 400px;
+    
+}
+
+/*
+.logo:hover{
+    background-color: black;
+}
+*/
+#blank1{
+    margin-top:500px;
+}
+
+.header{
+    margin-top:10px;
+    margin-left:3%;
+    text-align: center;
+    position:fixed;
+    z-index: 1;
+    width:100%;
+    font-size: 12px;
+    font-family: chronicle display;
+}
+
+hr{
+    width:1600px;
+}
+
+.agenda{
+    margin-left: 4%;
+    margin-right:4%;
+    margin-top:350px;
+    width: 1920x;
+    font-family: chronicle display;
+    letter-spacing: 1px;
+}
+.agenda a:link {color:black;}
+.agenda a:visited {color:black;}
+.agenda a:hover {color: black; transition: 2s; }
+
+
+#agenda1{
+    font-size: 65px;
+      width: 1900px;
+    display:inline-block;
+    line-height: 1.3;
+    
+    text-decoration: line-through;
+}
+
+#agenda1:hover{
+    transition: 2s;
+    text-decoration: none;
+}
+
+#agenda2{
+    font-size: 100px;
+    line-height: 1.3;
+    display:inline-block;
+}
+
+p#agenda3{
+    font-size: 20px;
+    text-align: center;
+}
+
+#whitebox{
+    width:100%;
+    height: 1230px;
+}
+
+#blackbox{
+    width:100%;
+    height:1270px;
+    margin:0;
+    background-color:black;
+    position: relative
+}
+
+.detail{
+  width:95%;
+  height:500px; 
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+
+  display: none;
+
+}
+
+.detail p{
+  position: static;
+  font-size:15px;
+  font-family: Helvetica Neue;
+  text-transform:uppercase;"
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.inside{
+  padding:0px;
+  overflow: scroll;
+  height :500px;
+  white-space:nowrap;
+}
+.inside img{
+  margin:0px;
+  height:480px;
+}
+
+
+
+
+
+.title{
+    width:100%;
+   /* text-align: center;*/
+    margin-top:30px;
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    /*transform: rotate(-90deg);*/
+}
+
+nav a {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  margin-right: 135px;
+  outline: none;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 12px;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+}
+
+
+/* Effect 14: border switch */
+
+.cl-effect-14 a {
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: black;
+  content: '';
+  opacity: 0.2;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+  right: 0;
+  bottom: -2px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+  opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+  left: 50%;
+  -webkit-transform: rotate(0deg) translateX(-50%);
+  -moz-transform: rotate(0deg) translateX(-50%);
+  transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+  right: 50%;
+  -webkit-transform: rotate(0deg) translateX(50%);
+  -moz-transform: rotate(0deg) translateX(50%);
+  transform: rotate(0deg) translateX(50%);
+}
+
+/*
+.menu{
+    width:50%;
+    float:right;
+    margin-top:100px;
+    margin-bottom: 100px;
+    font-family: "Verdana";
+    font-size: 11px;
+
+}
+*/
+
+/*
+.wrap {
+    top: 100px;
+    width: 100%;
+    position: relative;
+    float:left;
+    margin-top: 0px
+    }
+
+*/
+
+
+.box {
+    position: relative;
+    margin-left: 0.6%;
+    width: 101px;
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    opacity: ;
+    height:150px;
+    float:left;
+}
+.text{
+    font-weight: 350;
+}
+p.name {
+   width:115px;
+   font-size: 13px;
+   letter-spacing: 0.5px;
+   font-weight: 350;
+   margin-top:-2px;
+   margin-bottom: -15px;
+   text-transform: uppercase;
+
+}
+.textwhite{
+    font-weight: 350;
+    color: white;
+}
+p.namewhite {
+   width:115px;
+   font-size: 13px;
+   letter-spacing: 0.5px;
+   font-weight: 350;
+   margin-top:-2px;
+   margin-bottom: -15px;
+   text-transform: uppercase;
+   color: white;
+
+}
+
+.scroll {
+    width:102px;
+    height:60px;
+    margin:0px;
+    /*background:#A3CBE0;
+    border:2px solid #000;*/
+    overflow: hidden;
+    white-space:nowrap;
+    font-size: 0;
+    }
+.scroll img {
+    margin:0px;
+    height:50px;
+    }
+
+
+
+
+
+
+ #css_test {
+    background-image:url('http://superkts.com/img/css/dogs.gif');
+    background-repeat:repeat-x;
+    height:150px;
+  }
+
+
+
